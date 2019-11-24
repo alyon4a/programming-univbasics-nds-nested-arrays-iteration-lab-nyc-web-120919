@@ -29,8 +29,9 @@ def total_even_pairs(src)
   i = 0
   sum = 0
   while i < src.size do
-    if ()
-    new_array[i] = src[i][0] > src[i][1] ? src[i][0] : src[i][1]
+    if (src[i][0].even?() && src[i][1].even?()) 
+      sum += src[i][0] + src[i][1]
+    
     i += 1
   end
   return sum
