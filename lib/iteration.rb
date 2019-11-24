@@ -31,7 +31,7 @@ def total_even_pairs(src)
   while i < src.size do
     if (src[i][0].even?() && src[i][1].even?()) 
       sum += src[i][0] + src[i][1]
-    
+    end
     i += 1
   end
   return sum
