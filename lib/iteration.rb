@@ -3,6 +3,7 @@ def join_ingredients(src)
   new_array = []
   while i < src.size do
     new_array[i] = "I love #{src[i][0]} and #{src[i][1]} on my pizza"
+    i += 1
   end
   return new_array
 end
