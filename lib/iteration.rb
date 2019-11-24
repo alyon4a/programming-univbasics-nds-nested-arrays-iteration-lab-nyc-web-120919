@@ -9,7 +9,7 @@ def join_ingredients(src)
 end
 
 def find_greater_pair(src)
-  
+  i = 0
   new_array = []
   while i < src.size do
     new_array[i] = src[i][0] > src[i][1] ? src[i][0] : src[i][1]
